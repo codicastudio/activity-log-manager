@@ -1,0 +1,39 @@
+{
+    "name": "codicastudio/adminactivitylog",
+    "description": "A random Codica Studio package.",
+    "keywords": [
+        ""
+    ],
+    "homepage": "https://github.com/codicastudio/adminactivitylog",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael J Brown",
+            "email": "mbrown@codicastudio.com",
+            "homepage": "https://codicastudio.com",
+            "role": "Developer"
+        }
+    ],
+
+    "require": {
+        "laravel/nova": "^3.0",
+        "spatie/laravel-activitylog": "^3.9.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bolechen\\NovaActivitylog\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bolechen\\NovaActivitylog\\ToolServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
