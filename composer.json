@@ -1,10 +1,10 @@
 {
-    "name": "codicastudio/adminactivitylog",
+    "name": "codica-studio/adminactivitylog",
     "description": "A random Codica Studio package.",
     "keywords": [
         ""
     ],
-    "homepage": "https://github.com/codicastudio/adminactivitylog",
+    "homepage": "https://github.com/codica-studio/adminactivitylog",
     "license": "MIT",
     "authors": [
         {
