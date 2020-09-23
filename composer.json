@@ -15,7 +15,7 @@
 
     "require": {
         "laravel/nova": "^3.0",
-        "spatie/laravel-activitylog": "^3.9.1"
+        "codica-studio/adminactivitylog": "dev-master"
     },
     "autoload": {
         "psr-4": {
