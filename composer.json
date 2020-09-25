@@ -1,8 +1,8 @@
 {
-    "name": "codica-studio/adminactivitylog",
+    "name": "codicastudio/activity-log-manager",
     "description": "A random Codica Studio package.",
 
-    "homepage": "https://github.com/codicastudio/adminactivitylog",
+    "homepage": "https://github.com/codicastudio/activity-log-manager",
     "license": "MIT",
     "authors": [
         {
@@ -12,10 +12,8 @@
             "role": "Developer"
         }
     ],
-
     "require": {
-        "laravel/nova": "^3.0",
-        "codica-studio/adminactivitylog": "dev-master"
+        "codicastudio/activity-log-manager": "^1.0"
     },
     "autoload": {
         "psr-4": {
@@ -32,6 +30,6 @@
     "config": {
         "sort-packages": true
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true
 }
